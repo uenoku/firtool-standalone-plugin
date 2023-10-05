@@ -1,6 +1,7 @@
 # An experimental example of MLIR pass plugin for CIRCT dialect
 This is an experimental example based on https://github.com/llvm/llvm-project/tree/main/mlir/examples/standalone for implementing pass pipeline for CIRCT dialects. 
 
+[`standalone-switch-bar-foo`](https://github.com/uenoku/circt-standalone-plugin/blob/main/lib/Standalone/StandalonePasses.cpp) implements a tranformation to replace a wire `bar` with `foo`. 
 ## Building - Component Build
 
 ```sh
